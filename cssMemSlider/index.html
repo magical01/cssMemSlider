@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS MEM SLIDER</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page__body">
+  <div class="container">
+    <h1 class="title">
+      CSS MEM SLIDER
+    </h1>
+    <div class="slider">
+      <input type="radio" name="btn" id="btn1" checked>
+      <input type="radio" name="btn" id="btn2">
+      <input type="radio" name="btn" id="btn3">
+      <input type="radio" name="btn" id="btn4">
+      <div class="slide__wrapper">
+        <div class="slide__slides">
+          <div class="slide__item first"><img src="image/1mem.jpg" alt="MEMES" class="slide__image" height="60vh"></div>
+          <div class="slide__item"><img src="image/2mem.jpg" alt="MEMES" class="slide__image" height="60vh"></div>
+          <div class="slide__item"><img src="image/3mem.jpg" alt="MEMES" class="slide__image" height="60vh"></div>
+          <div class="slide__item"><img src="image/4mem.jpg" alt="MEMES" class="slide__image" height="60vh"></div>
+        </div>
+      </div>
+      <div class="slide__bottom">
+        <div class="slide__wrapper-text">
+          <div class="slide__text slide__text-1">Тяжело в учении, легко в отчислении...</div>
+          <div class="slide__text slide__text-2">Я голоден только тогда, когда я голоден, а когда я не голоден - я не голоден...</div>
+          <div class="slide__text slide__text-3">Мало кто поймет, но кто поймет, тот мало кто...</div>
+          <div class="slide__text slide__text-4">Ты думаешь я забыл? Но нет. Я забыл...</div>
+        </div>
+        <div class="pagination">
+          <label for="btn1" class="slide__pagination">
+            <span class="slide__controls"></span>
+          </label>
+          <label for="btn2" class="slide__pagination">
+            <span class="slide__controls"></span>
+          </label>
+          <label for="btn3" class="slide__pagination">
+            <span class="slide__controls"></span>
+          </label>
+          <label for="btn4" class="slide__pagination">
+            <span class="slide__controls"></span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -111,3 +111,38 @@ input[name="btn"] {
   opacity: 0.6;
   transform: scale(1.1);
 }
+/* transform image */
+#btn1:checked ~ .slide__wrapper .slide__slides {
+  margin-top: 0;
+}
+#btn2:checked ~ .slide__wrapper .slide__slides {
+  margin-top: -60vh;
+}
+#btn3:checked ~ .slide__wrapper .slide__slides {
+  margin-top: -120vh;
+}
+#btn4:checked ~ .slide__wrapper .slide__slides {
+  margin-top: -180vh;
+}
+/* active controls */
+#btn1:checked ~ .slide__bottom .pagination > label[for="btn1"] > .slide__controls,
+#btn2:checked ~ .slide__bottom .pagination > label[for="btn2"] > .slide__controls,
+#btn3:checked ~ .slide__bottom .pagination > label[for="btn3"] > .slide__controls,
+#btn4:checked ~ .slide__bottom .pagination > label[for="btn4"] > .slide__controls
+{
+  background-color: #2E2836
+}
+
+/* transform text */
+#btn1:checked ~ .slide__bottom .slide__wrapper-text .slide__text-1 {
+  margin-left: 0;
+}
+#btn2:checked ~ .slide__bottom .slide__wrapper-text .slide__text-1 {
+  margin-left: -100%;
+}
+#btn3:checked ~ .slide__bottom .slide__wrapper-text .slide__text-1 {
+  margin-left: -200%;
+}
+#btn4:checked ~ .slide__bottom .slide__wrapper-text .slide__text-1 {
+  margin-left: -300%;
+}
